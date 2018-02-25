@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF4A04C120426E6B00186DCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4A04C020426E6B00186DCD /* main.m */; };
+		AF4A04CA2043337600186DCD /* IsUnique.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4A04C92043337600186DCD /* IsUnique.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		AF4A04BD20426E6B00186DCD /* CtCI-objective-c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CtCI-objective-c"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4A04C020426E6B00186DCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF4A04C82043337600186DCD /* IsUnique.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IsUnique.h; sourceTree = "<group>"; };
+		AF4A04C92043337600186DCD /* IsUnique.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IsUnique.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,19 @@
 		AF4A04BF20426E6B00186DCD /* CtCI-objective-c */ = {
 			isa = PBXGroup;
 			children = (
+				AF4A04C72043335C00186DCD /* arrays_strings */,
 				AF4A04C020426E6B00186DCD /* main.m */,
 			);
 			path = "CtCI-objective-c";
+			sourceTree = "<group>";
+		};
+		AF4A04C72043335C00186DCD /* arrays_strings */ = {
+			isa = PBXGroup;
+			children = (
+				AF4A04C82043337600186DCD /* IsUnique.h */,
+				AF4A04C92043337600186DCD /* IsUnique.m */,
+			);
+			path = arrays_strings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4A04CA2043337600186DCD /* IsUnique.m in Sources */,
 				AF4A04C120426E6B00186DCD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
