@@ -9,11 +9,12 @@
 #import <Foundation/Foundation.h>
 #import "CheckPermutation.h"
 #import "URLify.h"
+#import "PalindromePermutation.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        URLify *obj = [URLify new];
-        NSLog(@"%@", [obj URLify:@"  a b   c    "]);
+        PalindromePermutation *obj = [PalindromePermutation new];
+        NSLog(@"%d", [obj palindromePermutationS2: @"aca"]);
     }
     return 0;
 }

@@ -11,6 +11,7 @@
 		AF4A04CA2043337600186DCD /* IsUnique.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4A04C92043337600186DCD /* IsUnique.m */; };
 		AF4A04CD2043350000186DCD /* CheckPermutation.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4A04CC2043350000186DCD /* CheckPermutation.m */; };
 		AF4A04D0204396B700186DCD /* URLify.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4A04CF204396B700186DCD /* URLify.m */; };
+		AF4A04D320439A0800186DCD /* PalindromePermutation.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4A04D220439A0800186DCD /* PalindromePermutation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		AF4A04CC2043350000186DCD /* CheckPermutation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckPermutation.m; sourceTree = "<group>"; };
 		AF4A04CE204396B700186DCD /* URLify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLify.h; sourceTree = "<group>"; };
 		AF4A04CF204396B700186DCD /* URLify.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLify.m; sourceTree = "<group>"; };
+		AF4A04D120439A0800186DCD /* PalindromePermutation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PalindromePermutation.h; sourceTree = "<group>"; };
+		AF4A04D220439A0800186DCD /* PalindromePermutation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalindromePermutation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				AF4A04CC2043350000186DCD /* CheckPermutation.m */,
 				AF4A04CE204396B700186DCD /* URLify.h */,
 				AF4A04CF204396B700186DCD /* URLify.m */,
+				AF4A04D120439A0800186DCD /* PalindromePermutation.h */,
+				AF4A04D220439A0800186DCD /* PalindromePermutation.m */,
 			);
 			path = arrays_strings;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 				AF4A04CD2043350000186DCD /* CheckPermutation.m in Sources */,
 				AF4A04D0204396B700186DCD /* URLify.m in Sources */,
 				AF4A04C120426E6B00186DCD /* main.m in Sources */,
+				AF4A04D320439A0800186DCD /* PalindromePermutation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
