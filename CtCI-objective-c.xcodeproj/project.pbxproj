@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AF4A04C120426E6B00186DCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4A04C020426E6B00186DCD /* main.m */; };
 		AF4A04CA2043337600186DCD /* IsUnique.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4A04C92043337600186DCD /* IsUnique.m */; };
+		AF4A04CD2043350000186DCD /* CheckPermutation.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4A04CC2043350000186DCD /* CheckPermutation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		AF4A04C020426E6B00186DCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AF4A04C82043337600186DCD /* IsUnique.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IsUnique.h; sourceTree = "<group>"; };
 		AF4A04C92043337600186DCD /* IsUnique.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IsUnique.m; sourceTree = "<group>"; };
+		AF4A04CB2043350000186DCD /* CheckPermutation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckPermutation.h; sourceTree = "<group>"; };
+		AF4A04CC2043350000186DCD /* CheckPermutation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckPermutation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 			children = (
 				AF4A04C82043337600186DCD /* IsUnique.h */,
 				AF4A04C92043337600186DCD /* IsUnique.m */,
+				AF4A04CB2043350000186DCD /* CheckPermutation.h */,
+				AF4A04CC2043350000186DCD /* CheckPermutation.m */,
 			);
 			path = arrays_strings;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF4A04CA2043337600186DCD /* IsUnique.m in Sources */,
+				AF4A04CD2043350000186DCD /* CheckPermutation.m in Sources */,
 				AF4A04C120426E6B00186DCD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,7 +253,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LPRD99FQ39;
+				DEVELOPMENT_TEAM = 78A73LK6Q3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -256,7 +262,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LPRD99FQ39;
+				DEVELOPMENT_TEAM = 78A73LK6Q3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

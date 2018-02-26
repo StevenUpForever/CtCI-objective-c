@@ -10,6 +10,10 @@
 
 @implementation IsUnique
 
+/*
+ Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
+ */
+
 - (BOOL)isUnique: (NSString *)s {
     NSInteger compare = 0;
     for (int i = 0; i < s.length; i++) {

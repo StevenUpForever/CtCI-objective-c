@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CheckPermutation.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        CheckPermutation *obj = [CheckPermutation new];
+        NSLog(@"%d", [obj permutation:@"abcd" t:@"dcba"]);
     }
     return 0;
 }
