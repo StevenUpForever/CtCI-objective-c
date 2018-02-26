@@ -8,11 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import "CheckPermutation.h"
+#import "URLify.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        CheckPermutation *obj = [CheckPermutation new];
-        NSLog(@"%d", [obj permutation:@"abcd" t:@"dcba"]);
+        URLify *obj = [URLify new];
+        NSLog(@"%@", [obj URLify:@"  a b   c    "]);
     }
     return 0;
 }
