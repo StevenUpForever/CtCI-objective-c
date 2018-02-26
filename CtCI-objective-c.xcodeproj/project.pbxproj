@@ -13,6 +13,7 @@
 		AF4A04D0204396B700186DCD /* URLify.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4A04CF204396B700186DCD /* URLify.m */; };
 		AF4A04D320439A0800186DCD /* PalindromePermutation.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4A04D220439A0800186DCD /* PalindromePermutation.m */; };
 		AF4A04D62043A33C00186DCD /* OneWay.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4A04D52043A33C00186DCD /* OneWay.m */; };
+		AF4A04D92043A67D00186DCD /* StringCompression.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4A04D82043A67D00186DCD /* StringCompression.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		AF4A04D220439A0800186DCD /* PalindromePermutation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalindromePermutation.m; sourceTree = "<group>"; };
 		AF4A04D42043A33C00186DCD /* OneWay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneWay.h; sourceTree = "<group>"; };
 		AF4A04D52043A33C00186DCD /* OneWay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneWay.m; sourceTree = "<group>"; };
+		AF4A04D72043A67D00186DCD /* StringCompression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringCompression.h; sourceTree = "<group>"; };
+		AF4A04D82043A67D00186DCD /* StringCompression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringCompression.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				AF4A04D220439A0800186DCD /* PalindromePermutation.m */,
 				AF4A04D42043A33C00186DCD /* OneWay.h */,
 				AF4A04D52043A33C00186DCD /* OneWay.m */,
+				AF4A04D72043A67D00186DCD /* StringCompression.h */,
+				AF4A04D82043A67D00186DCD /* StringCompression.m */,
 			);
 			path = arrays_strings;
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 				AF4A04CA2043337600186DCD /* IsUnique.m in Sources */,
 				AF4A04CD2043350000186DCD /* CheckPermutation.m in Sources */,
 				AF4A04D62043A33C00186DCD /* OneWay.m in Sources */,
+				AF4A04D92043A67D00186DCD /* StringCompression.m in Sources */,
 				AF4A04D0204396B700186DCD /* URLify.m in Sources */,
 				AF4A04C120426E6B00186DCD /* main.m in Sources */,
 				AF4A04D320439A0800186DCD /* PalindromePermutation.m in Sources */,
